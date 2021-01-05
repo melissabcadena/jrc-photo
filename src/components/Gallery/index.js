@@ -5,8 +5,6 @@ import photo from "../../assets/couple/couple-0.jpg";
 function Gallery(props) {
     const currentCategory = {
       name: "couple",
-      description:
-        "Photos of grocery stores, food trucks, and other commercial projects",
     };
     return (
       <section>

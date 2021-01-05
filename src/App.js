@@ -1,12 +1,16 @@
 import './App.css';
 import About from './components/About';
 import Gallery from './components/Gallery';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div>
-      <Gallery></Gallery>
-      <About></About>
+      <Nav></Nav>
+      <main>
+        <Gallery></Gallery>
+        <About></About>
+      </main>
     </div>
   );
 }
